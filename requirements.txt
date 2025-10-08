@@ -1,1 +1,4 @@
 discord.py==2.3.2
+gspread==6.*
+google-auth==2.*
+pandas==2.*
