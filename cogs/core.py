@@ -8,7 +8,7 @@ SECRET  = "123"  # mesmo SECRET do Apps Script
 class Core(commands.Cog):
     def __init__(self, bot): self.bot = bot
 
-    @commands.command(name="regiao")
+    @commands.command(name="regioes")
     async def regioes(self, ctx, *filtro):
         """
         Uso:
