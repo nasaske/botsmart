@@ -2,7 +2,7 @@
 import requests, discord, textwrap
 from discord.ext import commands
 
-API_URL = "https://script.google.com/macros/s/SEU_WEBAPP_ID/exec"  # seu URL do Apps Script /exec
+API_URL = "https://script.google.com/macros/s/AKfycbyv2rRcR1OWJKdiAvU6BDZsdAjUdh8cqUFbKam0bgPV3ic4FfAPTfseRo-J9_TiTRMhRg/exec"  # seu URL do Apps Script /exec
 SECRET  = "123"  # mesmo SECRET do Apps Script
 
 class Core(commands.Cog):
